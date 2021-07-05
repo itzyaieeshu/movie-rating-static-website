@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://npmcdn.com/flickity@2/dist/flickity.css" media="screen">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-navbar pt-2 pb-2">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
+            aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="#"><img src="img/logo.png" width="280" height="40"
+                class="d-inline-block align-top" alt=""></a>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <div class="pl-1 pr-1"><a class="btn btn-primary my-2
+                            my-sm-0 btn-lg" type="submit">Signup</a></div>
+                <div class="pl-1 pr-1"><a class="btn btn-outline-secondary
+                            my-2 my-sm-0 btn-lg" type="submit">Login</a></div>
+            </form>
+        </div>
+    </nav>
+    <header class="hero">
+        <div class="hero-layer">
+            <div class="container h-100">
+                <div class="row h-100 align-items-center text-light">
+                    <div class="col-lg-12 row mt-5 mb-5">
+                        <div class="col-lg-6">
+                            <h1 class="display-4 font-weight-normal">Welcome</h1>
+                            <h3 class="">Millions of movies and people
+                                to discover. Explore now.</h3>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="row mt-5">
+                                <div class="col-md-12 mx-auto">
+                                    <div class="input-group">
+                                        <input class="form-control border-end-0
+                                                border" type="search" placeholder="search" id="movies-search-box">
+                                        <span class="input-group-append">
+                                            <button class="btn bg-white ms-n5" type="button">
+                                                <i class="fa fa-search"></i>
+                                            </button>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <section>
+            <div class="col-lg-12 genre-section rounded-lg bg-cs-1">
+                <div class="col-1g-12 pl-3 pt-5">
+                    <h1>All movies</h1>
+                </div> 
+                <div class="col-lg-12 row">
+                    <!--<div class="col-md-3 pt-5 pb-5">
+                        <div class="card  bg-cs-2 shadow-sm">
+                            <img src="img/Luca.jpeg" class="card-img-top" alt="...">
+                            <div class="col-12 row card-body text-light">
+                                <div class="col-md-8">
+                                    <h3>Luca</h3>
+                                    <p class="card-text">2016</p>
+                                </div>
+                                <div class="col-md-4 align-middle">
+                                    <div class="rating-circle">
+                                        <p class="font-weight-bold text-center">3.5</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                    <div class="col-md-3 pt-5 pb-5">
+                        <div class="card  bg-cs-2 shadow-sm">
+                            <img src="img/Luca.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body text-light">
+                                <h3>Luca</h3>
+                                <p class="card-text">2016</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 pt-5 pb-5">
+                        <div class="card  bg-cs-2 shadow-sm">
+                            <img src="img/Luca.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body text-light">
+                                <h3>Luca</h3>
+                                <p class="card-text">2016</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 pt-5 pb-5">
+                        <div class="card  bg-cs-2 shadow-sm">
+                            <img src="img/Luca.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body text-light">
+                                <h3>Luca</h3>
+                                <p class="card-text">2016</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 pt-5 pb-5">
+                        <div class="card  bg-cs-2 shadow-sm">
+                            <img src="img/Luca.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body text-light">
+                                <h3>Luca</h3>
+                                <p class="card-text">2016</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 pt-5 pb-5">
+                        <div class="card  bg-cs-2 shadow-sm">
+                            <img src="img/Luca.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body text-light">
+                                <h3>Luca</h3>
+                                <p class="card-text">2016</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 pt-5 pb-5">
+                        <div class="card  bg-cs-2 shadow-sm">
+                            <img src="img/Luca.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body text-light">
+                                <h3>Luca</h3>
+                                <p class="card-text">2016</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 pt-5 pb-5">
+                        <div class="card  bg-cs-2 shadow-sm">
+                            <img src="img/Luca.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body text-light">
+                                <h3>Luca</h3>
+                                <p class="card-text">2016</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 pt-5 pb-5">
+                        <div class="card  bg-cs-2 shadow-sm">
+                            <img src="img/Luca.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body text-light">
+                                <h3>Luca</h3>
+                                <p class="card-text">2016</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 pt-5 pb-5">
+                        <div class="card  bg-cs-2 shadow-sm">
+                            <img src="img/Luca.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body text-light">
+                                <h3>Luca</h3>
+                                <p class="card-text">2016</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 pt-5 pb-5">
+                        <div class="card  bg-cs-2 shadow-sm">
+                            <img src="img/Luca.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body text-light">
+                                <h3>Luca</h3>
+                                <p class="card-text">2016</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 pt-5 pb-5">
+                        <div class="card  bg-cs-2 shadow-sm">
+                            <img src="img/Luca.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body text-light">
+                                <h3>Luca</h3>
+                                <p class="card-text">2016</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 pt-5 pb-5">
+                        <div class="card  bg-cs-2 shadow-sm">
+                            <img src="img/Luca.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body text-light">
+                                <h3>Luca</h3>
+                                <p class="card-text">2016</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 pt-5 pb-5">
+                        <div class="card  bg-cs-2 shadow-sm">
+                            <img src="img/Luca.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body text-light">
+                                <h3>Luca</h3>
+                                <p class="card-text">2016</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 pt-5 pb-5">
+                        <div class="card  bg-cs-2 shadow-sm">
+                            <img src="img/Luca.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body text-light">
+                                <h3>Luca</h3>
+                                <p class="card-text">2016</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 pt-5 pb-5">
+                        <div class="card  bg-cs-2 shadow-sm">
+                            <img src="img/Luca.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body text-light">
+                                <h3>Luca</h3>
+                                <p class="card-text">2016</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 pt-5 pb-5">
+                        <div class="card  bg-cs-2 shadow-sm">
+                            <img src="img/Luca.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body text-light">
+                                <h3>Luca</h3>
+                                <p class="card-text">2016</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 pt-5 pb-5">
+                        <div class="card  bg-cs-2 shadow-sm">
+                            <img src="img/Luca.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body text-light">
+                                <h3>Luca</h3>
+                                <p class="card-text">2016</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 pt-5 pb-5">
+                        <div class="card  bg-cs-2 shadow-sm">
+                            <img src="img/Luca.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body text-light">
+                                <h3>Luca</h3>
+                                <p class="card-text">2016</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 pt-5 pb-5">
+                        <div class="card  bg-cs-2 shadow-sm">
+                            <img src="img/Luca.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body text-light">
+                                <h3>Luca</h3>
+                                <p class="card-text">2016</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 pt-5 pb-5">
+                        <div class="card  bg-cs-2 shadow-sm">
+                            <img src="img/Luca.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body text-light">
+                                <h3>Luca</h3>
+                                <p class="card-text">2016</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+    <script src="https://npmcdn.com/flickity@2/dist/flickity.pkgd.js"></script>
+</body>
+
+</html>
